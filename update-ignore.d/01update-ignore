@@ -136,6 +136,7 @@ writefile () {
 	ignore .initctl
 	ignore "webmin/fsdump/*.status"
 	ignore "webmin/webmin/oscache"
+	ignore "webmin/system-status/*"
 	ignore "apparmor.d/cache/*"
 	ignore "service/*/supervise/*"
 	ignore "service/*/log/supervise/*"
